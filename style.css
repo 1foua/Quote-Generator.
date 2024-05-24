@@ -1,0 +1,46 @@
+body
+
+{
+    margin: 0;
+    padding: 0;
+}
+.quote
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.quote-content
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.quote-content h1
+{
+    font-size: 80px;
+    font-family: Impact;
+}
+.quote-content p
+{
+    font-size: 35px;
+
+}
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover
+{
+    background-color: green;
+}
